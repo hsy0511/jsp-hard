@@ -50,15 +50,16 @@ jsp는 http 웹 서비스하기 위한 프로그램을 만든다.
 
 http는 request와 response로 이루어져있다.
 
-![image](https://github.com/hsy0511/jsp-hard/assets/104752580/1a6d5c12-85b7-4047-8599-3e1a9693e4b3)
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/b95a94c5-2e7e-4bde-83d8-5d745e104e09)
 
 jsp 파일 하나가 아닌 전체 프로젝트를 서버(tomcat 8.0)로 실행 시킨다.
 
 ![image](https://github.com/hsy0511/jsp-hard/assets/104752580/832ae3f5-b70e-4a15-a032-570832957fe7)
 
-프로젝트의 실행은 클라우드에서 받은 정보를 처리 한 후 서버로부터 시작된다.
+프로젝트의 실행은 클라이언트에서 받은 정보를 처리 한 후 서버로부터 시작된다.
 
-![image](https://github.com/hsy0511/jsp-hard/assets/104752580/171d3314-46b8-49cc-8dfe-63603021da01)
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/99676338-d069-4dba-8756-f25e76e708dd)
+
 
 
 - 첫번째 예제 프로젝트
@@ -79,7 +80,7 @@ jsp 파일 하나가 아닌 전체 프로젝트를 서버(tomcat 8.0)로 실행 
 </html>
 ```
 
-![image](https://github.com/hsy0511/jsp-hard/assets/104752580/bda051ff-80e0-4de5-93fa-6ca41b3dbdf4)
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/097ac2ab-d246-4d29-86f6-a6cd1cdfd3a1)
 
 웹 서버에서 리로드를 할 때마다 정보가 달라지는 것을 볼 수 있다.
 
