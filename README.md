@@ -125,7 +125,7 @@ for(int i = 1; i <= 10; i++ ){
 
 동적 서비스 인지 확인하기 위해 출력문을 사용한다.
 
-![image](https://github.com/hsy0511/jsp-hard/assets/104752580/838a3af5-f205-4d80-a33c-5a824063a187)
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/aa1da13c-5416-40cf-a6be-72d2a19bea38)
 
 요청을 할 때 마다 응답을하는 것을 볼 수 있다.
 
