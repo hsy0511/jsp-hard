@@ -180,3 +180,5 @@ System.out.println("처리함");
 해결 방법은 전체코드를 잘라내고 저장하고 다시 붙여넣고 저장을 하면 된다.
 
 ![image](https://github.com/hsy0511/jsp-hard/assets/104752580/cf04961c-9c3d-4295-a005-f2909bc0318e)
+
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/5da925cd-c06e-43f0-8e82-7b3ddb3287da)
