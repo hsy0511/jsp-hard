@@ -19,7 +19,8 @@ jsp 파일 하나가 아닌 전체 프로젝트를 서버(tomcat 8.0)로 실행 
 
 프로젝트의 실행은 클라우드에서 받은 정보를 처리 한 후 서버로부터 시작된다.
 
-![image](https://github.com/hsy0511/jsp-hard/assets/104752580/b30f6763-996a-4db4-a8e7-cf56fa7d06dc)
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/171d3314-46b8-49cc-8dfe-63603021da01)
+
 
 - 첫번째 예제 프로젝트
 
