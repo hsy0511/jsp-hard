@@ -3,7 +3,7 @@
 
 url : https://www.youtube.com/playlist?list=PLpzDq-W37heSMxWj0XEVfM1rUcHBDjhm3										
 
-## 제 1강, 첫 번째 프로젝트를 이용하여 동적서비스 개념 잡기
+## 제 2강, 첫 번째 프로젝트를 이용하여 동적서비스 개념 잡기
 
 - jsp 설명
 
@@ -48,5 +48,5 @@ jsp 파일 하나가 아닌 전체 프로젝트를 서버(tomcat 8.0)로 실행 
 
 이렇게 클라이언트의 요청에 따라 서버가 응답하여 다양한 화면을 제공하는 것이 동적 페이지라고 볼 수 있다.
 
-## 제 2강, 프로젝트(Dynamic Web Project) 구조와 동적서비스 개념 이해하기
+## 제 3강, 프로젝트(Dynamic Web Project) 구조와 동적서비스 개념 이해하기
 
