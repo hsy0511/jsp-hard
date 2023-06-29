@@ -1,4 +1,4 @@
-![image](https://github.com/hsy0511/jsp-hard/assets/104752580/0908c6eb-f96e-4ff2-982f-369543fadef0)# jsp-hard
+# jsp-hard
 강의 : IT핥기(jsp)
 
 url : https://www.youtube.com/playlist?list=PLpzDq-W37heSMxWj0XEVfM1rUcHBDjhm3										
