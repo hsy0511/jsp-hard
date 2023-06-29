@@ -1,4 +1,4 @@
-# jsp-hard
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/0908c6eb-f96e-4ff2-982f-369543fadef0)# jsp-hard
 강의 : IT핥기(jsp)
 
 url : https://www.youtube.com/playlist?list=PLpzDq-W37heSMxWj0XEVfM1rUcHBDjhm3										
@@ -87,3 +87,80 @@ jsp 파일 하나가 아닌 전체 프로젝트를 서버(tomcat 8.0)로 실행 
 
 ## 제 3강, 동적서비스 개념 이해하기
 
+- 예제를 통해서 이해하기
+
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> jsp 예제 </title>
+</head>
+<body> 
+<%
+	int total = 0;
+for(int i = 1; i <= 10; i++ ){
+	total += i;
+}
+%>
+	1부터 10까지의 합 : <%= total %>
+</body>
+</html>
+%>
+```
+
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/b3f0d3b8-d0a0-42ba-9ed7-411509959750)
+
+여기서 빨간색으로 표시한 곳은 톰캣(서버)이 처리하는데 html은 서버가 가지고 있는다.
+
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/d0d809e7-1082-4393-92c9-5f1cfb996124)
+
+요청한 값을 다 처리하면 결과는 html코드가 된다.
+
+결과물을 웹 브라우저에 줬을 때 빨간색으로 표시한 곳은 서버가 처리 했기 때문에 화면에 나오는 것은 html 코드가 될 것이다.
+
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/e9ada35c-3d97-43cf-aeb1-e64c167b180f)
+
+동적 서비스 인지 확인하기 위해 출력문을 사용한다.
+
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/838a3af5-f205-4d80-a33c-5a824063a187)
+
+요청을 할 때 마다 응답을하는 것을 볼 수 있다.
+
+이 페이지는 동적인 페이지긴 하지만 결과 값이 정적인 것이다.
+
+하지만 결과 값까지 동적이게 만들고 싶으면 코드를 수정 하면 된다.
+
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> jsp 예제 </title>
+</head>
+<body> 
+<%
+	java.util.Random ran = new java.util.Random();
+	
+	int total = 0;
+for(int i = 1; i <= ran.nextInt(10); i++ ){
+	total += i;
+}
+System.out.println("처리함");
+%>
+	1~10까지 난수의 합 : <%= total %>
+</body>
+</html>
+```
+
+![image](https://github.com/hsy0511/jsp-hard/assets/104752580/dcbec401-f0b1-4dc3-bc6e-31608d8672e8)
+
+이런식으로 Random() 메소드를 이용하여 동적인 결과 값을 나타낼 수 있다.
+
+즉, 결과 값이 정적이어도 동적인 서비스일 수 있는 것을 확인할 수 있다.
+
+이제 동적인 서비스가 어떤식으로 돌아가는지 이해할 수 있다.
